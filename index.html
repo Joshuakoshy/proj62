@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#Grid">Grid view</a></li>
+        <li class="links"><a href="#Slide">Slide view</a></li>
+    </ul>
+
+    <div class="container">
+        <section id="home">
+            <img id="img1" src="https://media.tenor.com/images/121cc46bd5525740e3472ce14e937843/tenor.gif">
+        </section>
+
+        <section id="car">
+            <h1>Car</h1>
+            <div><img style="border: 0px;width:100%;  text-align: center;" src="./images/7.jpg">
+            </div>
+
+        </section>
+        <!-- This section is about grid view -->
+        <section id="gridview">
+            <h2>Grid view</h2>
+            <div class="row">
+                <img class="img2" src="./images/one.jpg">
+                <img class="img2" src="./images/two.jpg">
+                <img class="img2" src="./images/3.jpg">
+                <img class="img2" src="./images/4.jpg">
+                <br><br>
+            </div>
+
+        </section>
+        <div class="item">
+            <img class="img-responsive" src="" alt="Lombergini tarzo" style="width:100%;">
+            <div class="carousel-caption">
+                <h3>Lamborghini </h3>
+                <p></p>
+            </div>
+        </div>
+
+        <!--
+Start your code from here
+-->
+        <h2>click on the games to explore
+        </h2>
+        <h5>These games are buit in game lab,click on the games to play</h5>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/DQqPQpC0vNjcdWrMYHzP7kbCK8-R-GLi5S8qeQ1GEHY/edit" target="_blank">
+                            <img src="./images/5.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>
+                                Lamborghini
+                            </p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/DQqPQpC0vNjcdWrMYHzP7kbCK8-R-GLi5S8qeQ1GEHY/edit" target="_blank">
+                            <img src="./images/6.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>
+                                Car_game
+                            </p>
+
+                        </div>
+                    </center>
+                </div>
+
+
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+
+            </a>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
